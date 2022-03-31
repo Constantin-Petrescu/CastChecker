@@ -1,37 +1,4 @@
-## Welcome to GitHub Pages
+## Cast Checker
 
-You can use the [editor on GitHub](https://github.com/Constantin-Petrescu/CastChecker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Constantin-Petrescu/CastChecker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Developers relax restrictions on a type to reuse methods with other types. While type casts are prevalent, in weakly typed languages such as C++, they are also extremely permissive. If type conversions are performed without care, they can lead to software bugs. Therefore, there is a clear need to check whether a type conversion is essential and used adequately according to the developer’s intent. In this paper, we propose a technique to judge the fidelity of type conversions from an explicit cast operation, using the identifiers in an assignment. We measure accord in the identifiers using conditional entropy and use it to check if the semantics of the source expression in the cast match the semantics of the variable it is being assigned. We present the results of running our tool on 34 components of the Chromium project, which collectively account for 27MLOC. Our tool flags 8,459 cases of discord indicating potential anti-patterns in the usage of explicit casts or imprecise names for the identifiers used in the named cast. We performed a user study on a random-uniform sample from the corpus. Our evaluation shows that our tool has a precision of 81%, a recall of 90% and an accuracy of 92% in identifying correctly flagged cases. We present the findings of an in-depth investigation for notable explicit cast cases from the Chromium project.
