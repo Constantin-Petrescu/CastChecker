@@ -5,11 +5,11 @@ Contains the code for Cast Checker tool. It generates the Conditional Entropy va
 ### Dependencies
 Python 3.9.7 has been used at the time of development
 
-Libraries used:
-dit==1.2.3
-matplotlib==3.4.1
-pandas==1.2.3
-tabulate==0.8.7
+Let ibraries used:
+- dit==1.2.3
+- matplotlib==3.4.1
+- pandas==1.2.3
+- tabulate==0.8.7
 
 
 ### Usage
