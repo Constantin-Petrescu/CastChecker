@@ -1,4 +1,6 @@
-dataset.zip contains three json files and :
+# Data
+
+dataset.zip contains three json files and a folder:
 
 - entropy.json - results of extracting the casts from the lucid files
 - flagged.json - casts flagged by the tool

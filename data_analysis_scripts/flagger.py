@@ -1,12 +1,6 @@
 import os
 import json
-import matplotlib
-import matplotlib.pyplot as plt
 import pandas as pd
-import numpy as np
-from matplotlib.widgets import Button
-from matplotlib.text import Annotation
-import ast
 import re
 
 def main(entropy_threshold):

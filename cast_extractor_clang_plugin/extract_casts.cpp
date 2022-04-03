@@ -56,6 +56,6 @@ protected:
 
 // Registering the plugin command to extract_casts
 static FrontendPluginRegistry::Add<PrintFunctionNamesAction>
-X("extract_casts", "extract casts");
+X("extract-casts", "extract casts");
 
 
