@@ -1,7 +1,7 @@
 # Cast Checker
 Cast checker detects poor programming and naming practices in named casts for C++. 
 
-The project contains 3 folders.
+The project contains the following three folders:
 
 ### Cast extractor - Clang plugin
 
