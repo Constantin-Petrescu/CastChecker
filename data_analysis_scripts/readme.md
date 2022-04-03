@@ -17,13 +17,13 @@ Let ibraries used:
 Menu.py is the central script to run the rest of the files
 
 Menu.py takes two arguments:
-1 `option` is the first argument and it represents what script will be executed. The argument has type int and the values used can be:
+1. `option` is the first argument and it represents what script will be executed. The argument has type int and the values used can be:
 	- 0 to display the options
 	- 1 to run the entropy calculations from casts from lucid files from the following path: data/final_data_casting_paper
 	- 2 to flag cases from Entropy.json 
 	- 3 to create plots from entropy.json
 
-2 entropy_threshold which is the Conditional Entropy Threshold value. This argument has type int and by default it is 1. 
+2. entropy_threshold which is the Conditional Entropy Threshold value. This argument has type int and by default it is 1. 
 Commands examples:
 ```
 python3 menu.py option entropy_threshold
